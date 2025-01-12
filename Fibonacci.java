@@ -1,6 +1,14 @@
+/**
+ * This class contains methods related to the Fibonacci sequence.
+ */
 public class Fibonacci {
 
-    // Recursive static method to return the nth term in the Fibonacci sequence
+    /**
+     * Calculates the nth term in the Fibonacci sequence using recursion.
+     *
+     * @param n the position in the Fibonacci sequence (starting from 0)
+     * @return the nth term in the Fibonacci sequence
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
